@@ -1,0 +1,15 @@
+import java.util.Scanner
+
+public class userController{
+	String name;
+	int registrationNumber;
+	int age; 
+	public userController(String name, int registrationNumber, int age){
+		this.name = name;
+		this.registrationNumber = registrationNumber;
+		this.age = age;
+	}
+	void setUser(){
+		Scanner = new Scanner(System.in)
+	} 
+}

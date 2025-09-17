@@ -1,0 +1,17 @@
+public class Student{
+	String id;
+	String name;
+	String registrationNumber;
+	char gender;
+	String dateOfBirth;
+	String address;
+	public Student(){
+	}
+	public Student(){
+	}
+	public Student(){
+	}
+	public void setName(String name){
+		this.name = name
+	}
+}

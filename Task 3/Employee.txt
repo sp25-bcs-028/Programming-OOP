@@ -1,0 +1,12 @@
+public class Employee{
+	private String name;
+	private int socialSecurityNumber;
+	private int salary;
+	private String address;
+	void display(){
+		System.out.println("The name of the Employee is: " + name);
+		System.out.println("The Social Security Number of the Employee is: " + socialSecurityNumber);
+		System.out.println("The salary of the Employee is: " + salary);
+		System.out.println("The address of the Employee is: " + address);
+	} 
+}

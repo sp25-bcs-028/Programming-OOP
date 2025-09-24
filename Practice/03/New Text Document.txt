@@ -1,0 +1,4 @@
+public class Card{
+	private final suit;
+	private final rank;
+}

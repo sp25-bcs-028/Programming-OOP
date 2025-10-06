@@ -1,0 +1,22 @@
+import java.util.Scanner
+public class Player{
+	String name;
+	int score;
+	Card startingHand[];
+	
+	public Player(String name){
+		this.name = name;
+		this.score = 0;
+		this.startingHand = [];
+		
+	}
+	public void addPlayer(int numberOfPlayers){
+		Player players [] = new Player[numberOfPlayers]
+		Scanner scanner = new Scanner(System.in) 
+		for(int i = 0; i < numberOfPlayer){
+			System.out.println("Enter the name of student: ");
+			name = scanner.nextLine();
+			players[i] = new Player(name); 
+		}	
+	} 
+}

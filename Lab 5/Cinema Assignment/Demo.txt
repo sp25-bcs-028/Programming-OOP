@@ -1,0 +1,6 @@
+public class Demo{
+	public static void main(String args[]){
+		Seat seat = new Seat("Standard", "001", true, 320);
+		System.out.println(seat);
+	}
+}

@@ -1,0 +1,16 @@
+public class Seat{
+	String seatType;
+	String id;
+	boolean isAvailable;
+	double price;
+	public Seat(String seatType, String id, boolean isAvailable, double Price){
+		this.id = id;
+		this.seatType = seatType;
+		this.isAvailable = isAvailable;
+		this.price = price;	
+	}
+	@Override
+	public String toString(){
+		return "ID: " + this.id + "SeatType: " + seatType + "Price: " + price;
+	}
+}	

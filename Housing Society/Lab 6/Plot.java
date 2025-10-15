@@ -16,5 +16,18 @@ public class Plot{
 		this.id = id;
 		this.plotType = plotType;
 		this.availability = availability;
+	}
+	public double getPrice(String id){
+		return this.plotPrice;
+	}
+	public String getId(){
+		return this.id;
+
+	}
+	public void bookPlot(){
+		retrun this.availability = false;
+	}
+	public void cancelBooking(){
+		retrun this.availability = true;
 	}	
 }
